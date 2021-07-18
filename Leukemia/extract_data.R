@@ -17,7 +17,7 @@ cancer_ids = c(
 #'prot-a-1737',
 #'prot-a-63', #apoptosis
 #'prot-a-236',
-#'prot-a-64', 
+#'prot-a-64',  
 #'prot-c-3412_7_1',
 #'prot-a-1373',
 ao_subset = ao[is.element(ao$id, cancer_ids),]
