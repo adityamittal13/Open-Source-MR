@@ -3,7 +3,7 @@ outcomes = c( 'prot-a-1868', 'prot-a-235', 'prot-a-1130', 'prot-a-1736', 'prot-a
 exposures = c('prot-a-569', 'prot-a-532', 'prot-c-4500_50_2', 'prot-c-2475_1_3', 'prot-c-2966_65_2', 'prot-a-1652')
 
 df = NULL
-for (exposure in exposures){
+for (exposure in exposures){ 
   for (outcome in outcomes){
     if (file.exists(paste0("RES_MOE/", exposure, "_", outcome, ".csv"))){
       print("HERE")
