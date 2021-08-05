@@ -1,7 +1,7 @@
 library(TwoSampleMR)
 ao = available_outcomes()
 cancer_ids = c(
-               'ieu-a-812', #Parkison's
+               'ieu-a-812', #Parkinson's 
                'ieu-b-7',
                'ukb-b-6548',
                'ieu-a-818',
